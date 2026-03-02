@@ -25,7 +25,6 @@
     }
 
     function goTo(index) {
-      // Módulo seguro: funciona con negativos
       current = ((index % slides.length) + slides.length) % slides.length;
       track.scrollTo({ left: track.clientWidth * current, behavior: "smooth" });
       updateDots();
@@ -38,7 +37,6 @@
       goTo(current + 1);
     });
 
-    // Soporte de teclado cuando el carrusel tiene foco
     el.setAttribute("tabindex", "0");
     el.addEventListener("keydown", function (e) {
       if (e.key === "ArrowLeft")  goTo(current - 1);
@@ -61,14 +59,20 @@
   }
 
   function initAll() {
-    document.querySelectorAll(".party-carousel").forEach(initCarousel);
+    // El atributo data-carousel-init evita inicializar dos veces el mismo elemento
+    document.querySelectorAll(".party-carousel:not([data-carousel-init])").forEach(function (el) {
+      el.setAttribute("data-carousel-init", "1");
+      initCarousel(el);
+    });
   }
 
-  // document$ es el observable de navegación de MkDocs Material.
-  // Se dispara en cada carga de página (incluida la primera).
+  // Ejecutar inmediatamente: el script está al final del body,
+  // el DOM ya existe aunque document$ aún no haya emitido.
+  initAll();
+
+  // Además subscribirse a document$ para que funcione con la navegación
+  // SPA de MkDocs Material (cuando el usuario navega entre páginas).
   if (typeof document$ !== "undefined") {
     document$.subscribe(initAll);
-  } else {
-    document.addEventListener("DOMContentLoaded", initAll);
   }
 })();
