@@ -18,10 +18,11 @@ from pathlib import Path
 
 # Rutas relativas al directorio de este script
 SCRIPT_DIR = Path(__file__).parent
-SOURCE_DIR = SCRIPT_DIR          # Notas de Obsidian (raíz del wiki)
+SOURCE_DIR = SCRIPT_DIR / "Notas"    # Notas de Obsidian (carpeta compartida)
 DOCS_DIR   = SCRIPT_DIR / "docs"
 
 # Mapeo de archivos fuente → destino en docs/
+# Rutas relativas a SOURCE_DIR (Wiki Jugadores/Notas/)
 FILES = {
     "00 - Índice.md":                    "docs/index.md",
     "Reglas/Condiciones.md":             "docs/reglas/condiciones.md",
@@ -103,7 +104,7 @@ def sync():
     (DOCS_DIR / "clases").mkdir(exist_ok=True)
 
     for src_rel, dst_rel in FILES.items():
-        src = SCRIPT_DIR / src_rel
+        src = SOURCE_DIR / src_rel
         dst = SCRIPT_DIR / dst_rel
 
         if not src.exists():
