@@ -1,0 +1,30 @@
+name: Deploy wiki a GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar mkdocs-material
+        run: pip install mkdocs-material
+
+      - name: Sincronizar notas Obsidian → docs/
+        run: python sync_to_docs.py
+
+      - name: Publicar en GitHub Pages
+        run: mkdocs gh-deploy --force
