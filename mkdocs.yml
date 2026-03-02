@@ -1,0 +1,63 @@
+site_name: "D&D 5e 2024 — Wiki de Jugadores"
+site_description: "Referencia rápida para consultar durante las partidas"
+site_author: "DM"
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+# Extensiones de Markdown
+markdown_extensions:
+  - admonition          # Los callouts > [!info] se convierten en admonitions
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search:
+      lang: es
+
+# Estructura de navegación
+nav:
+  - Inicio: index.md
+  - Reglas:
+    - Condiciones: reglas/condiciones.md
+    - Economía de Acción: reglas/economia-de-accion.md
+    - Combate: reglas/combate.md
+    - Concentración: reglas/concentracion.md
+    - Descansos: reglas/descansos.md
+    - Maestría de Armas: reglas/maestria-de-armas.md
+  - Clases:
+    - Bardo: clases/bardo.md
+    - Clérigo: clases/clerigo.md
+    - Guerrero: clases/guerrero.md
+    - Hechicero: clases/hechicero.md
+    - Mago: clases/mago.md
