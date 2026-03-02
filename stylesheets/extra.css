@@ -1,0 +1,48 @@
+/* ── Carrusel de personajes ── */
+
+.party-carousel {
+  max-width: 720px;
+  margin: 1rem auto 2.5rem;
+  border-radius: 12px;
+  overflow: visible;           /* necesario para que los botones nav sobresalgan */
+  --swiper-theme-color: #ffab40;   /* amber — coincide con el accent del tema */
+  --swiper-navigation-size: 24px;
+}
+
+.party-carousel .swiper-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.party-carousel .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a1a2e;         /* fondo oscuro para modo dark */
+  border-radius: 12px;
+}
+
+.party-carousel .swiper-slide img {
+  width: 100%;
+  height: auto;
+  max-height: 440px;
+  object-fit: contain;
+  display: block;
+}
+
+.party-carousel .swiper-pagination {
+  bottom: -26px;
+}
+
+.party-carousel .swiper-pagination-bullet {
+  opacity: 0.5;
+}
+
+.party-carousel .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+/* Light mode */
+[data-md-color-scheme="default"] .party-carousel .swiper-slide {
+  background: #ececec;
+}

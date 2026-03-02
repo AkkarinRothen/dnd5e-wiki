@@ -51,6 +51,10 @@
       
     
     
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1484,15 +1488,17 @@
 </div>
 <hr />
 <h2 id="jugadores-de-la-tumba-deliana">Jugadores de La Tumba Deliana<a class="headerlink" href="#jugadores-de-la-tumba-deliana" title="Permanent link">&para;</a></h2>
-<div class="grid cards">
-<ul>
-<li><img alt="" src="img/Party%201.png" /></li>
-<li><img alt="" src="img/Party%202.jpg" /></li>
-<li><img alt="" src="img/Party%203.jpg" /></li>
-<li><img alt="" src="img/Party%204.jpg" /></li>
-<li><img alt="" src="img/Party%205.jpg" /></li>
-<li><img alt="" src="img/Party%206.jpg" /></li>
-</ul>
+<div class="swiper party-carousel">
+<div class="swiper-wrapper">
+<div class="swiper-slide"><img src="img/Party%202.jpg" alt=""></div>
+<div class="swiper-slide"><img src="img/Party%203.jpg" alt=""></div>
+<div class="swiper-slide"><img src="img/Party%204.jpg" alt=""></div>
+<div class="swiper-slide"><img src="img/Party%205.jpg" alt=""></div>
+<div class="swiper-slide"><img src="img/Party%206.jpg" alt=""></div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
 </div>
 <h2 id="reglas-de-referencia">Reglas de Referencia<a class="headerlink" href="#reglas-de-referencia" title="Permanent link">&para;</a></h2>
 <table>
@@ -1703,6 +1709,10 @@
     
     
       <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      
+        <script src="javascripts/carousel.js"></script>
       
     
   </body>
