@@ -8,7 +8,7 @@
     if (el.swiper) el.swiper.destroy(true, true);
 
     new Swiper(".party-carousel", {
-      loop: true,
+      rewind: true,   // loop: true tiene bug asimétrico en Swiper 11
       slidesPerView: 1,
       pagination: {
         el: ".party-carousel .swiper-pagination",
