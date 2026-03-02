@@ -4,7 +4,7 @@ tags: [dnd5e, clase, bardo, lanzador]
 
 # Bardo — Referencia Rápida
 
-[[00 - Índice|← Volver al índice]] | [Nota completa](../Bardo%205.5/Bardo%205.5.md)
+[[00 - Índice|← Volver al índice]] | [[Bardo - Conjuros|📜 Lista de Conjuros]] | [Nota completa](../Bardo%205.5/Bardo%205.5.md)
 
 ---
 

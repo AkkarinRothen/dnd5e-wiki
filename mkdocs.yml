@@ -57,6 +57,7 @@ nav:
     - Maestría de Armas: reglas/maestria-de-armas.md
   - Clases:
     - Bardo: clases/bardo.md
+    - Bardo - Conjuros: clases/bardo-conjuros.md
     - Clérigo: clases/clerigo.md
     - Guerrero: clases/guerrero.md
     - Hechicero: clases/hechicero.md

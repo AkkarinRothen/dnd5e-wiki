@@ -31,6 +31,7 @@ FILES = {
     "Reglas/Descansos.md":               "docs/reglas/descansos.md",
     "Reglas/Maestría de Armas.md":       "docs/reglas/maestria-de-armas.md",
     "Clases/Bardo.md":                   "docs/clases/bardo.md",
+    "Clases/Bardo - Conjuros.md":        "docs/clases/bardo-conjuros.md",
     "Clases/Clérigo.md":                 "docs/clases/clerigo.md",
     "Clases/Guerrero.md":                "docs/clases/guerrero.md",
     "Clases/Hechicero.md":              "docs/clases/hechicero.md",
