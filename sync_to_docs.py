@@ -40,6 +40,10 @@ FILES = {
     "Clases/Hechicero - Conjuros.md":   "docs/clases/hechicero-conjuros.md",
     "Clases/Mago.md":                    "docs/clases/mago.md",
     "Clases/Mago - Conjuros.md":         "docs/clases/mago-conjuros.md",
+    "Clases/Pícaro.md":                  "docs/clases/picaro.md",
+    "Clases/Bardo - Descripciones Lvl 0-2.md":   "docs/clases/bardo-descripciones.md",
+    "Clases/Clérigo - Descripciones Lvl 0-2.md": "docs/clases/clerigo-descripciones.md",
+    "Clases/Mago - Descripciones Lvl 0-2.md":    "docs/clases/mago-descripciones.md",
 }
 
 

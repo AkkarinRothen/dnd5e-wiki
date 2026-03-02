@@ -58,10 +58,14 @@ nav:
   - Clases:
     - Bardo: clases/bardo.md
     - Bardo - Conjuros: clases/bardo-conjuros.md
+    - Bardo - Descripciones Lvl 0-2: clases/bardo-descripciones.md
     - Clérigo: clases/clerigo.md
     - Clérigo - Conjuros: clases/clerigo-conjuros.md
+    - Clérigo - Descripciones Lvl 0-2: clases/clerigo-descripciones.md
     - Guerrero: clases/guerrero.md
     - Hechicero: clases/hechicero.md
     - Hechicero - Conjuros: clases/hechicero-conjuros.md
     - Mago: clases/mago.md
     - Mago - Conjuros: clases/mago-conjuros.md
+    - Mago - Descripciones Lvl 0-2: clases/mago-descripciones.md
+    - Pícaro: clases/picaro.md

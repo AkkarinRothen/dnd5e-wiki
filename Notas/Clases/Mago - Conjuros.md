@@ -4,7 +4,7 @@ tags: [dnd5e, mago, conjuros, lanzador]
 
 # Mago — Lista de Conjuros
 
-[[00 - Índice|← Índice]] | [[Mago|← Clase Mago]]
+[[00 - Índice|← Índice]] | [[Mago|← Clase Mago]] | [[Mago - Descripciones Lvl 0-2|📖 Descripciones Lvl 0-2]]
 
 > [!note] Leyenda
 > **C** = Requiere Concentración · **R** = Ritual · **M** = Componente Material específico

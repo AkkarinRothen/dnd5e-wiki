@@ -16,6 +16,9 @@ SCRIPT_DIR = Path(__file__).parent
 SITE_DIR   = SCRIPT_DIR / "site"
 TMP_DIR    = SCRIPT_DIR / ".deploy-tmp"
 
+# Python 3.12 (el que tiene mkdocs-material instalado)
+PYTHON = r"C:\Users\Giise\AppData\Local\Programs\Python\Python312\python.exe"
+
 
 def run(cmd, cwd=None, check=True):
     result = subprocess.run(cmd, shell=True, cwd=cwd or SCRIPT_DIR)
@@ -27,10 +30,10 @@ def run(cmd, cwd=None, check=True):
 
 def main():
     print("=== 1/3 Sincronizando notas de Obsidian ===")
-    run("python sync_to_docs.py")
+    run(f'"{PYTHON}" sync_to_docs.py')
 
     print("\n=== 2/3 Construyendo HTML ===")
-    run("mkdocs build")
+    run(f'"{PYTHON}" -m mkdocs build')
 
     print("\n=== 3/3 Publicando en GitHub Pages ===")
 

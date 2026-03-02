@@ -1,6 +1,6 @@
 # Clérigo — Lista de Conjuros
 
-← Índice | ← Clase Clérigo
+← Índice | ← Clase Clérigo | 📖 Descripciones Lvl 0-2
 
 !!! note "Leyenda"
     **C** = Requiere Concentración · **R** = Ritual · **M** = Componente Material específico

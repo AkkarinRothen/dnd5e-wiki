@@ -4,7 +4,7 @@ tags: [dnd5e, bardo, conjuros, lanzador]
 
 # Bardo — Lista de Conjuros
 
-[[00 - Índice|← Índice]] | [[Bardo|← Clase Bardo]]
+[[00 - Índice|← Índice]] | [[Bardo|← Clase Bardo]] | [[Bardo - Descripciones Lvl 0-2|📖 Descripciones Lvl 0-2]]
 
 > [!note] Leyenda
 > **C** = Requiere Concentración · **R** = Ritual · **M** = Componente Material específico

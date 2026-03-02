@@ -1,6 +1,6 @@
 # Bardo — Lista de Conjuros
 
-← Índice | ← Clase Bardo
+← Índice | ← Clase Bardo | 📖 Descripciones Lvl 0-2
 
 !!! note "Leyenda"
     **C** = Requiere Concentración · **R** = Ritual · **M** = Componente Material específico

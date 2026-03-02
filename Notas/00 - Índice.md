@@ -31,6 +31,7 @@ tags: [dnd5e, índice, referencia]
 | [[Guerrero]] | Fuerza o Destreza | Todas + Escudos |
 | [[Hechicero]] | Carisma | Ninguna |
 | [[Mago]] | Inteligencia | Ninguna |
+| [[Pícaro]] | Destreza | Ligera |
 
 ---
 

@@ -4,7 +4,7 @@ tags: [dnd5e, clérigo, conjuros, lanzador]
 
 # Clérigo — Lista de Conjuros
 
-[[00 - Índice|← Índice]] | [[Clérigo|← Clase Clérigo]]
+[[00 - Índice|← Índice]] | [[Clérigo|← Clase Clérigo]] | [[Clérigo - Descripciones Lvl 0-2|📖 Descripciones Lvl 0-2]]
 
 > [!note] Leyenda
 > **C** = Requiere Concentración · **R** = Ritual · **M** = Componente Material específico
