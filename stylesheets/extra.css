@@ -1,6 +1,8 @@
 /* ── Carrusel de personajes ── */
 
 .party-carousel {
+  width: 100%;
+  height: 540px;
   max-width: 520px;               /* más angosto — pensado para arte portrait */
   margin: 1rem auto 2.5rem;
   overflow: visible;               /* botones nav sobresalen del borde */
@@ -11,6 +13,7 @@
 .party-carousel .swiper-wrapper {
   border-radius: 12px;
   overflow: hidden;
+  height: 100%;
 }
 
 /* Altura fija en el slide — así object-fit: contain funciona de forma confiable */
