@@ -4,7 +4,7 @@ tags: [dnd5e, clase, clérigo, lanzador]
 
 # Clérigo — Referencia Rápida
 
-[[00 - Índice|← Volver al índice]] | [Nota completa](../Clérigo%205.5/Clérigo%205.5.md)
+[[00 - Índice|← Volver al índice]] | [[Clérigo - Conjuros|📜 Lista de Conjuros]] | [Nota completa](../Clérigo%205.5/Clérigo%205.5.md)
 
 ---
 

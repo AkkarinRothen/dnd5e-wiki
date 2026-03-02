@@ -4,7 +4,7 @@ tags: [dnd5e, clase, mago, lanzador]
 
 # Mago — Referencia Rápida
 
-[[00 - Índice|← Volver al índice]] | [Nota completa](../Mago%205.5/Mago%205.5.md)
+[[00 - Índice|← Volver al índice]] | [[Mago - Conjuros|📜 Lista de Conjuros]] | [Nota completa](../Mago%205.5/Mago%205.5.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # Hechicero — Referencia Rápida
 
-← Volver al índice
+← Volver al índice | 📜 Lista de Conjuros
 
 ---
 

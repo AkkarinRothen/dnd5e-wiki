@@ -4,7 +4,7 @@ tags: [dnd5e, clase, hechicero, lanzador]
 
 # Hechicero — Referencia Rápida
 
-[[00 - Índice|← Volver al índice]] | [Nota completa](../Hechicero%205.5/Hechicero%205.5.md)
+[[00 - Índice|← Volver al índice]] | [[Hechicero - Conjuros|📜 Lista de Conjuros]] | [Nota completa](../Hechicero%205.5/Hechicero%205.5.md)
 
 ---
 

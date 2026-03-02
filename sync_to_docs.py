@@ -33,9 +33,12 @@ FILES = {
     "Clases/Bardo.md":                   "docs/clases/bardo.md",
     "Clases/Bardo - Conjuros.md":        "docs/clases/bardo-conjuros.md",
     "Clases/Clérigo.md":                 "docs/clases/clerigo.md",
+    "Clases/Clérigo - Conjuros.md":      "docs/clases/clerigo-conjuros.md",
     "Clases/Guerrero.md":                "docs/clases/guerrero.md",
     "Clases/Hechicero.md":              "docs/clases/hechicero.md",
+    "Clases/Hechicero - Conjuros.md":   "docs/clases/hechicero-conjuros.md",
     "Clases/Mago.md":                    "docs/clases/mago.md",
+    "Clases/Mago - Conjuros.md":         "docs/clases/mago-conjuros.md",
 }
 
 
